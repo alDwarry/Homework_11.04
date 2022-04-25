@@ -1,0 +1,102 @@
+.flex{
+    display: flex;
+}
+
+.container{
+    height: 200px;
+    width: 1069px;
+    border: 2px solid orange;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.icon{
+    height: 100%;
+    width: 15%;
+    border: 1px solid transpond;
+    box-sizing: border-box;
+    background-image: url(./Vector.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.little_icon{
+    height: 27px;
+    width: 27px;
+    border: 1px solid orange;
+    border-radius: 2px;
+    background-color: orange;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 90%;
+}
+
+.content{
+    height: 100%;
+    width: 72%;
+    border: 1px solid transpond;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cont_top{
+    height: 33%;
+    width: 100%;
+    border: 1px solid transpond;
+    box-sizing: border-box;
+    color: grey;  
+    align-items: center;  
+}
+
+span{
+    padding-left: 5px;
+}
+
+.mini{
+    margin-right: 10%;
+}
+
+.cont_middle{
+    height: 33%;
+    width: 100%;
+    border: 1px solid transpond;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 135%;
+}
+
+.cont_bott{
+    height: 33%;
+    width: 100%;
+    border: 1px solid transpond;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.orange_text{
+    color: orange;
+}
+
+.button{
+    height: 100%;
+    width: 13%;
+    border: 1px solid transpond;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-toggle-off{
+    color: lightgrey;    
+}
